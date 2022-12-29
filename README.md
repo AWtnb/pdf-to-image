@@ -64,6 +64,12 @@ python spread.py 単ページ.pdf
 
 ![img](./image/cmd2.png)
 
+縦書き PDF で、見開き時に右から左へと結合する場合は `--vertical` と付記すればOKです。
+
+```
+python spread.py 単ページ縦.pdf --vertical
+```
+
 
 ### 処理2：見開き PDF を画像に変換する
 
